@@ -26,16 +26,19 @@
                     <input type="text" name="uname" placeholder="UserName/Email" required/>
                     <br /><br />
                     <input type="password" name="pass" id="pass" placeholder="Password" required/>
+                    <br/>
+                    <br/>
                     <div>
-                        <input type="checkbox" id="showPass" onclick="togglepass()" />
-                        <label for="showPass">Show Password</label>
+                        <label for="showPass" class="showpassCheck">
+                            <input type="checkbox" onclick="togglepass()"/>Show Password
+                        </label>
                     </div>
                     <br /><br />
                     <button type="submit">Login</button>
                     <br />
                     <p style="color: red; font-size: 14px">${errormsg}</p>
                     <br />
-                    <br /><br /><br />
+                    <br /><br />
                     <a href="signup.jsp">Don't have a account ?...</a>
                 </form>
             </div>

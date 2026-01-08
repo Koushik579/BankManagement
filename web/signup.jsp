@@ -17,8 +17,6 @@
         <div id="container">
             <div id="signup">
                 <form action="signupconf" method="post">
-                    <label>Signup</label>
-                    <br /><br />
                     <input type="text" name="fname" placeholder="First Name" required/>
                     <br /><br />
                     <input type="text" name="lname" placeholder="Last Name" required/>
@@ -30,10 +28,10 @@
                     <input type="text" name="pass1" placeholder="Password" required/>
                     <br /><br />
                     <input type="password" name="pass2" id="pass2" placeholder="Confirm Password" required/>
-                    <br/>
                     <div>
-                        <label class="showpassCheck" onclick="togglepass2();">
-                            <input type="checkbox" />Show Password
+                        <br/>
+                        <label class="showpassCheck">
+                            <input type="checkbox" onclick="togglepass2();"/>Show Password
                         </label>
                     </div>
                     <br />
